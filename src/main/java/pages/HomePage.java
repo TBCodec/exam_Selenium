@@ -18,6 +18,9 @@ public class HomePage {
     By JAVASCRIPT_ALERTS_BUTTONS = By.xpath("//li[@class='tree-branch']//a[@href='./javascript-alert-box-demo.html']");
     By LIST_BOX_BUTTON = By.xpath("//li[@class='tree-branch']//a[text()='List Box']");
     By JQUERY_LIST_BUTTONS = By.xpath("//li[@class='tree-branch']//a[@href='./jquery-dual-list-box-demo.html']");
+    By PROGRESS_BAR_BUTTON = By.xpath("//li[@class='tree-branch']//a[text()='Progress Bars & Sliders']");
+    By BOOTSTRAP_BUTTONS = By.xpath("//li[@class='tree-branch']//a[@href='./bootstrap-download-progress-demo.html']");
+
 
     public HomePage(WebDriver driver) {
         this.driver = driver;
@@ -65,6 +68,14 @@ public class HomePage {
         return new JQueryDualListBoxPage(driver);
     }
 
+    public void clickProgressBars(){
+        driver.findElement(PROGRESS_BAR_BUTTON).click();
+    }
+
+    public ProgressBarForDownloadPage clickBootstrap(){
+        driver.findElement(BOOTSTRAP_BUTTONS).click();
+        return new ProgressBarForDownloadPage(driver);
+    }
 
     public void closePopUp(){
         wait = new WebDriverWait(driver, 10);
