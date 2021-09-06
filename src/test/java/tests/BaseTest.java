@@ -26,6 +26,7 @@ public class BaseTest {
         driver.manage().window().maximize();
         driver.get("https://www.seleniumeasy.com/test/");
         homePage = new HomePage(driver);
+        wait = new WebDriverWait(driver, 10);
         homePage.closePopUp();
     }
 

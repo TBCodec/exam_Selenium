@@ -13,6 +13,7 @@ public class HomePage {
     By POP_UP_CLOSE_BUTTON = By.xpath("//*[@id=\"at-cv-lightbox-close\"]");
     By INPUT_FORMS_BUTTON = By.xpath("//li[@class='tree-branch']//a[@href='#'][text()='Input Forms']");
     By SIMPLE_FORM_BUTTON = By.xpath("//li[@class='tree-branch']//a[text()='Simple Form Demo']");
+    By RADIO_BUTTONS = By.xpath("//li[@class='tree-branch']//a[@href='./basic-radiobutton-demo.html']");
 
     public HomePage(WebDriver driver) {
         this.driver = driver;
@@ -24,6 +25,13 @@ public class HomePage {
         wait.until(ExpectedConditions.visibilityOfElementLocated(SIMPLE_FORM_BUTTON));
         driver.findElement(SIMPLE_FORM_BUTTON).click();
         return new SimpleFormDemoPage(driver);
+    }
+
+    public RadioButtonDemoPage clickRadioButtons(){
+        wait = new WebDriverWait(driver, 10);
+        wait.until(ExpectedConditions.visibilityOfElementLocated(RADIO_BUTTONS));
+        driver.findElement(RADIO_BUTTONS).click();
+        return new RadioButtonDemoPage(driver);
     }
 
 
