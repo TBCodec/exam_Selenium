@@ -1,0 +1,87 @@
+{
+  "uid" : "b3141f4521ea498b",
+  "name" : "TestSumTwoNumbers()",
+  "fullName" : "tests.InputFieldTest.TestSumTwoNumbers",
+  "historyId" : "e2f55faf1f558756e64252ceddac8059",
+  "time" : {
+    "start" : 1630950939083,
+    "stop" : 1630950943691,
+    "duration" : 4608
+  },
+  "description" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "Setup",
+    "time" : {
+      "start" : 1630950939087,
+      "stop" : 1630950942537,
+      "duration" : 3450
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "afterStages" : [ {
+    "name" : "Close",
+    "time" : {
+      "start" : 1630950943617,
+      "stop" : 1630950943691,
+      "duration" : 74
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "host",
+    "value" : "fv-az47-502"
+  }, {
+    "name" : "thread",
+    "value" : "2894@fv-az47-502.ForkJoinPool-1-worker-1(12)"
+  }, {
+    "name" : "framework",
+    "value" : "junit-platform"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "package",
+    "value" : "tests.InputFieldTest"
+  }, {
+    "name" : "testClass",
+    "value" : "tests.InputFieldTest"
+  }, {
+    "name" : "testMethod",
+    "value" : "TestSumTwoNumbers"
+  }, {
+    "name" : "suite",
+    "value" : "tests.InputFieldTest"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "b3141f4521ea498b.json",
+  "parameterValues" : [ ]
+}

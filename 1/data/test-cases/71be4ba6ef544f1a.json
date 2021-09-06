@@ -1,0 +1,87 @@
+{
+  "uid" : "71be4ba6ef544f1a",
+  "name" : "TestInputCancel()",
+  "fullName" : "tests.AlertTest.TestInputCancel",
+  "historyId" : "6653b7aa53b8ec9a2b77f0a8bf86a504",
+  "time" : {
+    "start" : 1630950952736,
+    "stop" : 1630950956584,
+    "duration" : 3848
+  },
+  "description" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "Setup",
+    "time" : {
+      "start" : 1630950952737,
+      "stop" : 1630950955916,
+      "duration" : 3179
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "afterStages" : [ {
+    "name" : "Close",
+    "time" : {
+      "start" : 1630950956494,
+      "stop" : 1630950956583,
+      "duration" : 89
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "host",
+    "value" : "fv-az47-502"
+  }, {
+    "name" : "thread",
+    "value" : "2894@fv-az47-502.ForkJoinPool-1-worker-1(12)"
+  }, {
+    "name" : "framework",
+    "value" : "junit-platform"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "package",
+    "value" : "tests.AlertTest"
+  }, {
+    "name" : "testClass",
+    "value" : "tests.AlertTest"
+  }, {
+    "name" : "testMethod",
+    "value" : "TestInputCancel"
+  }, {
+    "name" : "suite",
+    "value" : "tests.AlertTest"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "71be4ba6ef544f1a.json",
+  "parameterValues" : [ ]
+}

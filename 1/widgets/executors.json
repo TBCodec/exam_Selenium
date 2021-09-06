@@ -1,0 +1,10 @@
+[ {
+  "name" : "GitHub Actions",
+  "type" : "github",
+  "url" : "https://TBCodec.github.io/exam_Selenium",
+  "buildOrder" : 1,
+  "buildName" : "GitHub Actions Run #1206851035",
+  "buildUrl" : "https://github.com/TBCodec/exam_Selenium/actions/runs/1206851035",
+  "reportName" : "Allure Report with history",
+  "reportUrl" : "https://TBCodec.github.io/exam_Selenium/1/"
+} ]

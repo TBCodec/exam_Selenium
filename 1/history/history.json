@@ -1,0 +1,183 @@
+{
+  "6653b7aa53b8ec9a2b77f0a8bf86a504" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "71be4ba6ef544f1a",
+      "reportUrl" : "https://TBCodec.github.io/exam_Selenium/1//#testresult/71be4ba6ef544f1a",
+      "status" : "passed",
+      "time" : {
+        "start" : 1630950952736,
+        "stop" : 1630950956584,
+        "duration" : 3848
+      }
+    } ]
+  },
+  "465d27272db795f5f23f08320ae7b1ff" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "bfac462cdd5e1b34",
+      "reportUrl" : "https://TBCodec.github.io/exam_Selenium/1//#testresult/bfac462cdd5e1b34",
+      "status" : "passed",
+      "time" : {
+        "start" : 1630950961402,
+        "stop" : 1630950965294,
+        "duration" : 3892
+      }
+    } ]
+  },
+  "f9cd47363ddade955ac454f0abbfabcc" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "c5a5b31c9c331d46",
+      "reportUrl" : "https://TBCodec.github.io/exam_Selenium/1//#testresult/c5a5b31c9c331d46",
+      "status" : "passed",
+      "time" : {
+        "start" : 1630950918652,
+        "stop" : 1630950935150,
+        "duration" : 16498
+      }
+    } ]
+  },
+  "918582aa102f4a05f5798ff65026ba9f" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "a70ee79f0f13431f",
+      "reportUrl" : "https://TBCodec.github.io/exam_Selenium/1//#testresult/a70ee79f0f13431f",
+      "status" : "broken",
+      "statusDetails" : "Expected condition failed: waiting for element found by By.xpath: //*[@id=\"circle\"]//div[@class=\"percenttext\"] to have text \"100%\". Current text: \"5%\" (tried for 0 second(s) with 1000 milliseconds interval)\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'fv-az47-502', ip: '10.1.0.52', os.name: 'Linux', os.arch: 'amd64', os.version: '5.8.0-1040-azure', java.version: '1.8.0_302'\nDriver info: driver.version: unknown",
+      "time" : {
+        "start" : 1630950965304,
+        "stop" : 1630950970972,
+        "duration" : 5668
+      }
+    } ]
+  },
+  "16880184e43ac714b2c79f35ee0b27b3" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "713dad7e0fb3e5b5",
+      "reportUrl" : "https://TBCodec.github.io/exam_Selenium/1//#testresult/713dad7e0fb3e5b5",
+      "status" : "passed",
+      "time" : {
+        "start" : 1630950943699,
+        "stop" : 1630950948040,
+        "duration" : 4341
+      }
+    } ]
+  },
+  "aee561048c3b9828a9143928fe49b327" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "ca8766ed4b439318",
+      "reportUrl" : "https://TBCodec.github.io/exam_Selenium/1//#testresult/ca8766ed4b439318",
+      "status" : "passed",
+      "time" : {
+        "start" : 1630950956613,
+        "stop" : 1630950961393,
+        "duration" : 4780
+      }
+    } ]
+  },
+  "23d4af8497cf23f95f59a57c628856d0" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "5a50aab8ce6df4b9",
+      "reportUrl" : "https://TBCodec.github.io/exam_Selenium/1//#testresult/5a50aab8ce6df4b9",
+      "status" : "passed",
+      "time" : {
+        "start" : 1630950935249,
+        "stop" : 1630950939035,
+        "duration" : 3786
+      }
+    } ]
+  },
+  "e2f55faf1f558756e64252ceddac8059" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "b3141f4521ea498b",
+      "reportUrl" : "https://TBCodec.github.io/exam_Selenium/1//#testresult/b3141f4521ea498b",
+      "status" : "passed",
+      "time" : {
+        "start" : 1630950939083,
+        "stop" : 1630950943691,
+        "duration" : 4608
+      }
+    } ]
+  },
+  "e474bde9aadd9c28eac35696d8c15a15" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "e163f9e13312aaf7",
+      "reportUrl" : "https://TBCodec.github.io/exam_Selenium/1//#testresult/e163f9e13312aaf7",
+      "status" : "passed",
+      "time" : {
+        "start" : 1630950948057,
+        "stop" : 1630950952728,
+        "duration" : 4671
+      }
+    } ]
+  }
+}

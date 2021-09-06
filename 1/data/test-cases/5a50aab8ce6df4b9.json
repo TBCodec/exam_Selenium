@@ -1,0 +1,87 @@
+{
+  "uid" : "5a50aab8ce6df4b9",
+  "name" : "TestAddSingleElement()",
+  "fullName" : "tests.DualListBoxTest.TestAddSingleElement",
+  "historyId" : "23d4af8497cf23f95f59a57c628856d0",
+  "time" : {
+    "start" : 1630950935249,
+    "stop" : 1630950939035,
+    "duration" : 3786
+  },
+  "description" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "Setup",
+    "time" : {
+      "start" : 1630950935251,
+      "stop" : 1630950938478,
+      "duration" : 3227
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "afterStages" : [ {
+    "name" : "Close",
+    "time" : {
+      "start" : 1630950938960,
+      "stop" : 1630950939035,
+      "duration" : 75
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "host",
+    "value" : "fv-az47-502"
+  }, {
+    "name" : "thread",
+    "value" : "2894@fv-az47-502.ForkJoinPool-1-worker-1(12)"
+  }, {
+    "name" : "framework",
+    "value" : "junit-platform"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "package",
+    "value" : "tests.DualListBoxTest"
+  }, {
+    "name" : "testClass",
+    "value" : "tests.DualListBoxTest"
+  }, {
+    "name" : "testMethod",
+    "value" : "TestAddSingleElement"
+  }, {
+    "name" : "suite",
+    "value" : "tests.DualListBoxTest"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "5a50aab8ce6df4b9.json",
+  "parameterValues" : [ ]
+}

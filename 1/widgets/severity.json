@@ -1,0 +1,91 @@
+[ {
+  "uid" : "a70ee79f0f13431f",
+  "name" : "TestProgressBarDownload()",
+  "time" : {
+    "start" : 1630950965304,
+    "stop" : 1630950970972,
+    "duration" : 5668
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "5a50aab8ce6df4b9",
+  "name" : "TestAddSingleElement()",
+  "time" : {
+    "start" : 1630950935249,
+    "stop" : 1630950939035,
+    "duration" : 3786
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "c5a5b31c9c331d46",
+  "name" : "TestAddAllElementButton()",
+  "time" : {
+    "start" : 1630950918652,
+    "stop" : 1630950935150,
+    "duration" : 16498
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "ca8766ed4b439318",
+  "name" : "TestSingleCheckedButton()",
+  "time" : {
+    "start" : 1630950956613,
+    "stop" : 1630950961393,
+    "duration" : 4780
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "713dad7e0fb3e5b5",
+  "name" : "TestSumTwoInvalidInputs()",
+  "time" : {
+    "start" : 1630950943699,
+    "stop" : 1630950948040,
+    "duration" : 4341
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "bfac462cdd5e1b34",
+  "name" : "TestMultipleCheckedButton()",
+  "time" : {
+    "start" : 1630950961402,
+    "stop" : 1630950965294,
+    "duration" : 3892
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "b3141f4521ea498b",
+  "name" : "TestSumTwoNumbers()",
+  "time" : {
+    "start" : 1630950939083,
+    "stop" : 1630950943691,
+    "duration" : 4608
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "e163f9e13312aaf7",
+  "name" : "TestSubmitValidInput()",
+  "time" : {
+    "start" : 1630950948057,
+    "stop" : 1630950952728,
+    "duration" : 4671
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "71be4ba6ef544f1a",
+  "name" : "TestInputCancel()",
+  "time" : {
+    "start" : 1630950952736,
+    "stop" : 1630950956584,
+    "duration" : 3848
+  },
+  "status" : "passed",
+  "severity" : "normal"
+} ]
