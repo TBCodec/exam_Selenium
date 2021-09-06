@@ -16,6 +16,8 @@ public class HomePage {
     By SIMPLE_FORM_BUTTON = By.xpath("//li[@class='tree-branch']//a[text()='Simple Form Demo']");
     By RADIO_BUTTONS = By.xpath("//li[@class='tree-branch']//a[@href='./basic-radiobutton-demo.html']");
     By JAVASCRIPT_ALERTS_BUTTONS = By.xpath("//li[@class='tree-branch']//a[@href='./javascript-alert-box-demo.html']");
+    By LIST_BOX_BUTTON = By.xpath("//li[@class='tree-branch']//a[text()='List Box']");
+    By JQUERY_LIST_BUTTONS = By.xpath("//li[@class='tree-branch']//a[@href='./jquery-dual-list-box-demo.html']");
 
     public HomePage(WebDriver driver) {
         this.driver = driver;
@@ -51,6 +53,18 @@ public class HomePage {
         driver.findElement(JAVASCRIPT_ALERTS_BUTTONS).click();
         return new JavascriptAlertPage(driver);
     }
+
+    public void clickListBoxButton(){
+        wait = new WebDriverWait(driver, 10);
+        wait.until(ExpectedConditions.visibilityOfElementLocated(LIST_BOX_BUTTON));
+        driver.findElement(LIST_BOX_BUTTON).click();
+    }
+
+    public JQueryDualListBoxPage clickJQueryButton(){
+        driver.findElement(JQUERY_LIST_BUTTONS).click();
+        return new JQueryDualListBoxPage(driver);
+    }
+
 
     public void closePopUp(){
         wait = new WebDriverWait(driver, 10);
