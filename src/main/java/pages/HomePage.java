@@ -1,0 +1,45 @@
+package pages;
+
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.support.ui.ExpectedConditions;
+import org.openqa.selenium.support.ui.WebDriverWait;
+
+public class HomePage {
+
+    private WebDriver driver;
+    private WebDriverWait wait;
+
+    By POP_UP_CLOSE_BUTTON = By.xpath("//*[@id=\"at-cv-lightbox-close\"]");
+    By INPUT_FORMS_BUTTON = By.xpath("//li[@class='tree-branch']//a[@href='#'][text()='Input Forms']");
+    By SIMPLE_FORM_BUTTON = By.xpath("//li[@class='tree-branch']//a[text()='Simple Form Demo']");
+
+    public HomePage(WebDriver driver) {
+        this.driver = driver;
+    }
+
+
+    public SimpleFormDemoPage clickSimpleFormButton(){
+        wait = new WebDriverWait(driver, 10);
+        wait.until(ExpectedConditions.visibilityOfElementLocated(SIMPLE_FORM_BUTTON));
+        driver.findElement(SIMPLE_FORM_BUTTON).click();
+        return new SimpleFormDemoPage(driver);
+    }
+
+
+    public void clickInputFormsButton(){
+        wait = new WebDriverWait(driver, 10);
+        wait.until(ExpectedConditions.visibilityOfElementLocated(INPUT_FORMS_BUTTON));
+        driver.findElement(INPUT_FORMS_BUTTON).click();
+
+    }
+
+    public void closePopUp(){
+        wait = new WebDriverWait(driver, 10);
+        wait.until(ExpectedConditions.visibilityOfElementLocated(POP_UP_CLOSE_BUTTON));
+        driver.findElement(POP_UP_CLOSE_BUTTON).click();
+    }
+
+
+
+}
