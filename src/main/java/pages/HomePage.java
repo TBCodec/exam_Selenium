@@ -12,8 +12,10 @@ public class HomePage {
 
     By POP_UP_CLOSE_BUTTON = By.xpath("//*[@id=\"at-cv-lightbox-close\"]");
     By INPUT_FORMS_BUTTON = By.xpath("//li[@class='tree-branch']//a[@href='#'][text()='Input Forms']");
+    By ALERTS_BUTTON = By.xpath("//li[@class='tree-branch']//a[@href='#'][text()='Alerts & Modals']");
     By SIMPLE_FORM_BUTTON = By.xpath("//li[@class='tree-branch']//a[text()='Simple Form Demo']");
     By RADIO_BUTTONS = By.xpath("//li[@class='tree-branch']//a[@href='./basic-radiobutton-demo.html']");
+    By JAVASCRIPT_ALERTS_BUTTONS = By.xpath("//li[@class='tree-branch']//a[@href='./javascript-alert-box-demo.html']");
 
     public HomePage(WebDriver driver) {
         this.driver = driver;
@@ -40,6 +42,14 @@ public class HomePage {
         wait.until(ExpectedConditions.visibilityOfElementLocated(INPUT_FORMS_BUTTON));
         driver.findElement(INPUT_FORMS_BUTTON).click();
 
+    }
+
+    public JavascriptAlertPage clickJavascriptAlerts(){
+        driver.findElement(ALERTS_BUTTON).click();
+        wait = new WebDriverWait(driver, 10);
+        wait.until(ExpectedConditions.visibilityOfElementLocated(JAVASCRIPT_ALERTS_BUTTONS));
+        driver.findElement(JAVASCRIPT_ALERTS_BUTTONS).click();
+        return new JavascriptAlertPage(driver);
     }
 
     public void closePopUp(){
